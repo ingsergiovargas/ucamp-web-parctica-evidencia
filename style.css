@@ -4,9 +4,20 @@
     box-sizing: border-box;
 }
 
+ html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100%;
+}
+
 body {
-    background: url(fondo.jpeg) center center/ cover no-repeat fixed;
-    background-color: red;
+    background-image: url("fondo.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #000;
     color: white;
     font-family: Arial, sans-serif;
     min-height: 100vh;
